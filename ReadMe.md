@@ -18,6 +18,7 @@ In summary, each approach has its strengths. Handwriting code is better for unde
 Regression results are as follows:
 
 Automated Code & GitHub Copilot Code:
+
 Set I: Slope = 0.5001, Intercept = 3.0001
 
 Set II: Slope = 0.5000, Intercept = 3.0009
@@ -26,7 +27,9 @@ Set III: Slope = 0.4997, Intercept = 3.0025
 
 Set IV: Slope = 0.4999, Intercept = 3.0017
 
+
 Gemini 2.5 Pro Code:
+
 Set I: Slope = 0.500, Intercept = 3.000
 
 Set II: Slope = 0.500, Intercept = 3.001
@@ -41,18 +44,29 @@ Set IV: Slope = 0.500, Intercept = 3.002
 Benchmark results are as follows:
 
 Automated Code:
+
 B/op: 21,656
+
 allocs/op: 177
+
 Time：2.534s
 
+
 GitHub Copilot Code:
+
 B/op: 24,385
+
 allocs/op: 180
+
 Time：1.579s
 
+
 Gemini 2.5 Pro Code:
+
 B/op: 21,656
+
 allocs/op: 177
+
 Time：1.459s
 
 ---
